@@ -3,7 +3,7 @@ object FormMain: TFormMain
   Height = 319
   Top = 23
   Width = 495
-  Caption = 'OABrowser3'
+  Caption = 'MyBrowser'
   ClientHeight = 319
   ClientWidth = 495
   OnCreate = FormCreate
@@ -88,6 +88,7 @@ object FormMain: TFormMain
       Width = 258
       ItemHeight = 17
       OnKeyUp = cbUrlKeyUp
+      OnSelect = cbUrlSelect
       TabOrder = 0
     end
     object ToolButton1: TToolButton

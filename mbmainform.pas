@@ -54,6 +54,7 @@ type
     procedure ActionListExecute(AAction: TBasicAction; var Handled: Boolean);
     procedure ActionListUpdate(AAction: TBasicAction; var Handled: Boolean);
     procedure cbUrlKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure cbUrlSelect(Sender: TObject);
     procedure edUrlKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -253,6 +254,11 @@ begin
   end;
 end;
 
+procedure TFormMain.cbUrlSelect(Sender: TObject);
+begin
+  OpenUrl(ustring(cbUrl.Text));
+end;
+
 procedure TFormMain.edUrlKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
@@ -266,8 +272,8 @@ begin
   Position := poScreenCenter;
   w := Screen.Width;
   h := Screen.Height;
-  if w > 1280 then w := 1280;
-  if h > 800 then h := 800;
+  if w > 1440 then w := 1440;
+  if h > 960 then h := 960;
   BoundsRect := Classes.Rect(0, 0, w, h);
   FAppPath := Application.ExeName;
 end;

@@ -19,8 +19,9 @@
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="4"/>
-        <CursorPos X="44" Y="44"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="296"/>
+        <CursorPos X="40" Y="316"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -28,10 +29,9 @@
       <Unit2>
         <Filename Value="mbwebpanel.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="52"/>
-        <CursorPos X="6" Y="65"/>
+        <TopLine Value="183"/>
+        <CursorPos X="3" Y="203"/>
         <UsageCount Value="45"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -278,7 +278,7 @@
         <UsageCount Value="10"/>
       </Unit32>
     </Units>
-    <JumpHistory Count="11" HistoryIndex="10">
+    <JumpHistory Count="12" HistoryIndex="11">
       <Position1>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\lists.inc"/>
         <Caret Line="46" TopLine="32"/>
@@ -323,6 +323,10 @@
         <Filename Value="mbwebpanel.pas"/>
         <Caret Line="94" Column="42"/>
       </Position11>
+      <Position12>
+        <Filename Value="mbwebpanel.pas"/>
+        <Caret Line="65" Column="6" TopLine="52"/>
+      </Position12>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
