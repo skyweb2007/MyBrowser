@@ -4,12 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Debug"/>
-    <Units Count="33">
+    <Units Count="37">
       <Unit0>
         <Filename Value="MyBrowser.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="45" Y="18"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="10"/>
+        <CursorPos X="50" Y="25"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -19,9 +21,8 @@
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="296"/>
-        <CursorPos X="40" Y="316"/>
+        <TopLine Value="76"/>
+        <CursorPos X="33" Y="90"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -29,16 +30,15 @@
       <Unit2>
         <Filename Value="mbwebpanel.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos X="3" Y="203"/>
         <UsageCount Value="45"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="mbfavicongetter.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="13"/>
         <CursorPos X="48" Y="13"/>
         <UsageCount Value="30"/>
@@ -190,11 +190,10 @@
       </Unit21>
       <Unit22>
         <Filename Value="C:\lazarus\lcl\include\imglist.inc"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1221"/>
         <CursorPos X="32" Y="1232"/>
         <UsageCount Value="14"/>
-        <Loaded Value="True"/>
       </Unit22>
       <Unit23>
         <Filename Value="..\third_party\cef4delphi\demos\SimpleLazarusBrowser\usimplelazarusbrowser.pas"/>
@@ -230,44 +229,39 @@
       </Unit26>
       <Unit27>
         <Filename Value="C:\lazarus\lcl\include\icon.inc"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="562"/>
         <CursorPos Y="576"/>
         <UsageCount Value="13"/>
-        <Loaded Value="True"/>
       </Unit27>
       <Unit28>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\lists.inc"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="32"/>
         <CursorPos Y="46"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit28>
       <Unit29>
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="550"/>
         <CursorPos Y="568"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit29>
       <Unit30>
         <Filename Value="C:\lazarus\lcl\imglist.pp"/>
         <UnitName Value="ImgList"/>
-        <EditorIndex Value="9"/>
-        <TopLine Value="397"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="395"/>
         <CursorPos X="21" Y="345"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit30>
       <Unit31>
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32pagecontrol.inc"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="79"/>
         <CursorPos X="16" Y="89"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit31>
       <Unit32>
         <Filename Value="sfmainform.pas"/>
@@ -277,56 +271,112 @@
         <CursorPos X="11" Y="87"/>
         <UsageCount Value="10"/>
       </Unit32>
+      <Unit33>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApp.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="243"/>
+        <CursorPos X="55" Y="257"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFInterfaces.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="153"/>
+        <CursorPos X="21" Y="167"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1449"/>
+        <CursorPos X="21" Y="1395"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFTypes.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="343"/>
+        <CursorPos X="3" Y="350"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit36>
     </Units>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="18" HistoryIndex="17">
       <Position1>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\lists.inc"/>
-        <Caret Line="46" TopLine="32"/>
+        <Filename Value="mbmainform.pas"/>
+        <Caret Line="316" Column="40" TopLine="119"/>
       </Position1>
       <Position2>
-        <Filename Value="C:\lazarus\lcl\include\icon.inc"/>
-        <Caret Line="724" TopLine="710"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApp.pas"/>
+        <Caret Line="83" Column="110" TopLine="53"/>
       </Position2>
       <Position3>
-        <Filename Value="C:\lazarus\lcl\include\icon.inc"/>
-        <Caret Line="576" TopLine="562"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="279" Column="77" TopLine="276"/>
       </Position3>
       <Position4>
-        <Filename Value="C:\lazarus\lcl\include\imglist.inc"/>
-        <Caret Line="1235" TopLine="1221"/>
+        <Filename Value="MyBrowser.lpr"/>
+        <Caret Line="25" Column="43" TopLine="8"/>
       </Position4>
       <Position5>
-        <Filename Value="C:\lazarus\lcl\include\icon.inc"/>
-        <Caret Line="724" TopLine="710"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="381" Column="16" TopLine="367"/>
       </Position5>
       <Position6>
-        <Filename Value="C:\lazarus\lcl\include\icon.inc"/>
-        <Caret Line="576" TopLine="562"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFInterfaces.pas"/>
+        <Caret Line="167" Column="21" TopLine="153"/>
       </Position6>
       <Position7>
-        <Filename Value="C:\lazarus\lcl\include\imglist.inc"/>
-        <Caret Line="2008" Column="8" TopLine="1999"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApp.pas"/>
+        <Caret Line="118" Column="36" TopLine="104"/>
       </Position7>
       <Position8>
-        <Filename Value="C:\lazarus\lcl\include\imglist.inc"/>
-        <Caret Line="1235" TopLine="1221"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApp.pas"/>
+        <Caret Line="257" Column="55" TopLine="243"/>
       </Position8>
       <Position9>
-        <Filename Value="C:\lazarus\lcl\include\imglist.inc"/>
-        <Caret Line="1232" Column="32" TopLine="1221"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="95" Column="8" TopLine="82"/>
       </Position9>
       <Position10>
-        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
-        <Caret Line="568" TopLine="550"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="111" Column="14" TopLine="104"/>
       </Position10>
       <Position11>
-        <Filename Value="mbwebpanel.pas"/>
-        <Caret Line="94" Column="42"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="269" Column="28" TopLine="255"/>
       </Position11>
       <Position12>
-        <Filename Value="mbwebpanel.pas"/>
-        <Caret Line="65" Column="6" TopLine="52"/>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="87" Column="14" TopLine="81"/>
       </Position12>
+      <Position13>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="113" Column="8" TopLine="100"/>
+      </Position13>
+      <Position14>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="332" Column="16" TopLine="319"/>
+      </Position14>
+      <Position15>
+        <Filename Value="MyBrowser.lpr"/>
+        <Caret Line="30" Column="38" TopLine="13"/>
+      </Position15>
+      <Position16>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="364" Column="59" TopLine="349"/>
+      </Position16>
+      <Position17>
+        <Filename Value="D:\bjhworks\Projects\pascal\third_party\cef4delphi\source\uCEFApplication.pas"/>
+        <Caret Line="369" Column="22" TopLine="364"/>
+      </Position17>
+      <Position18>
+        <Filename Value="MyBrowser.lpr"/>
+        <Caret Line="24" Column="58" TopLine="8"/>
+      </Position18>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

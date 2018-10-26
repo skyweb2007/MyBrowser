@@ -4785,8 +4785,7 @@ object FormMain: TFormMain
       8001AC418001AC410000AC410000AC410000AC410000AC410000AC410000AC41
       8001AC418001AC41C003AC41E007AC41F01FAC41
     }
-    Hint = 'OABrowser3'
-    Visible = True
+    Hint = 'MyBrowser'
     left = 256
     top = 96
   end

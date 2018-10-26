@@ -87,7 +87,7 @@ implementation
 {$R *.lfm}
 
 const
-  csIndexPageUrl = 'https://github.com';
+  csIndexPageUrl = 'chrome:about';
 
 const
   ACTION_OPEN_NEW_PAGE      = 100;
