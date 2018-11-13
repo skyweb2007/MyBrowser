@@ -21,8 +21,8 @@ begin
   GlobalCEFApp.cache                := 'cache';
   GlobalCEFApp.cookies              := 'cookies';
   GlobalCEFApp.UserDataPath         := 'data';
-  GlobalCEFApp.CustomFlashPath      := 'flashplayer';
-  GlobalCEFApp.FlashEnabled         := false;
+  GlobalCEFApp.CustomFlashPath      := 'flash';
+  GlobalCEFApp.FlashEnabled         := true;
   GlobalCEFApp.BrowserSubprocessPath:= 'subprocess.exe';
   GlobalCEFApp.EnableGPU            := true;
   if GlobalCEFApp.StartMainProcess then

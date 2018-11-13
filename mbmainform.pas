@@ -12,6 +12,7 @@ uses
 
 type
   TProgramState = (psInitializing, psRunning, psTerminating);
+
   { TFormMain }
 
   TFormMain = class(TForm)

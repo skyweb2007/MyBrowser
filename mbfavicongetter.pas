@@ -45,7 +45,7 @@ begin
   FUrlRequest := nil;
   if Assigned(FCallback) then
   begin
-    url := request.GetRequest.Url;
+    url := string(request.GetRequest.Url);
     if (request.GetRequestStatus = UR_SUCCESS) and (request.GetResponse.GetStatus div 100 = 2) then
     begin
       FStream.Position := 0;

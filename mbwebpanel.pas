@@ -239,6 +239,7 @@ begin
     FChromium.WebRTCNonproxiedUDP := STATE_DISABLED;
     SetUrl(AUrl);
     FChromium.DefaultUrl := FUrl;
+    FChromium.OnAddressChange := @DoAddressChange;
     FChromium.OnBeforePopup := @DoBeforePopup;
     FChromium.OnTitleChange := @DoTitleChange;
     FChromium.OnFavIconUrlChange := @DoFavIconUrlChange;
